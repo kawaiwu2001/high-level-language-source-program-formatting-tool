@@ -1,0 +1,28 @@
+#include <studio.h>
+#define ERROR -1
+int i,j;
+char a[10];
+int fun(int a,int b[5])
+{
+	int m;
+	float f;
+	if(a>b)
+	m = (a+b)*m;
+	else
+	m--;
+	if(a == b)
+		if(m == f)
+			i = 1;
+	while(a == b){
+		while(a == b){
+		a++;
+		break;
+		}
+	}
+	for(i = 0; i<5; i++){
+		a--;
+		continue;
+	}
+	fun(a,b+fun(m,a));
+	return m;
+}
